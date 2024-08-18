@@ -125,7 +125,10 @@ body {
 }
 
 .reaction-icon {
-    font-size: 1.2rem;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 2px;
 }
 
 .reaction-count {
@@ -140,4 +143,24 @@ body {
 
 .btn-close:focus {
     box-shadow: none;
+}
+.btn-group .btn {
+    border-radius: 6px;
+    padding: 5px 15px;
+    margin: 0 6px;
+}
+
+.btn-group .btn.active {
+    background-color: #34b7f1;
+    border-color: #34b7f1;
+}
+
+.btn-dark {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+.btn-dark:hover {
+    background-color: #2c2c2c;
+    border-color: #2c2c2c;
 }
